@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/mokee_ido.mk
+    $(LOCAL_DIR)/nad_ido.mk
+
+COMMON_LUNCH_CHOICES := \
+    nad_ido-user \
+    nad_ido-userdebug \
+    nad_ido-eng
