@@ -1,14 +1,19 @@
 [
   {
-    "repository": "android_device_cyanogen_msm8916-common",
-    "target_path": "device/cyanogen/msm8916-common"
+    "remote": "github",
+    "repository": "NusantaraROM-devices/device_cyanogen_msm8916-common",
+    "target_path": "device/cyanogen/msm8916-common",
+    "branch": "10"
   },
   {
-    "repository": "android_kernel_xiaomi_msm8916",
-    "target_path": "kernel/xiaomi/msm8916"
+    "remote": "github",
+    "repository": "Avarice12/platform_kernel_xiaomi_ido",
+    "target_path": "kernel/xiaomi/msm8916",
+    "branch": "10"
   },
   {
-    "repository": "android_vendor_xiaomi_ido",
+    "repository": "Avarice12/proprietary_vendor_xiaomi_ido",
     "target_path": "vendor/xiaomi/ido"
+    "branch": "10"
   }
 ]
